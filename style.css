@@ -686,6 +686,7 @@ body {
     margin: 50px auto;
     background-color: #f7f7f7;
     /* box-shadow: 0 0 10px var(--green); */
+    overflow: hidden;
     padding: 20px;
 }
 
