@@ -830,7 +830,6 @@ body {
    
 
 }
-
 .imga1,.imga2{
     display: flex;
     flex-direction: row;
@@ -841,8 +840,9 @@ body {
     display:inline-block;
     margin:0;
     height:200px;
-    width: 60vw;
-    background: url(assets/1.jpg);
+    
+    width: 30vw;
+    background: url(assets/1.png);
     background-size: cover; /* Ensure the background image covers the entire div */
     background-position: center; 
     background-repeat: no-repeat;
@@ -853,8 +853,8 @@ body {
     display:inline-block;
     margin:0;
     height:200px;
-    width: 60vw;
-    background: url(assets/2.jpg);
+    width: 30vw;
+    background: url(assets/2.png);
     background-size: cover; /* Ensure the background image covers the entire div */
     background-position: center; 
     background-repeat: no-repeat;
@@ -868,9 +868,9 @@ body {
     display:inline-block;
     margin:0;
     height:200px;
-    width: 60vw;
-    background: url(assets/3.jpg);
-    background-size: cover; /* Ensure the background image covers the entire div */
+    width: 30vw;
+    background: url(assets/3.png);
+    background-size: 90% 100%; /* Ensure the background image covers the entire div */
     background-position: center; 
     background-repeat: no-repeat;
     /* padding-left:3rem;
@@ -880,8 +880,8 @@ body {
     display:inline-block;
     margin:0;
     height:200px;
-    width: 60vw;
-    background: url(assets/4.jpg);
+    width: 30vw;
+    background: url(assets/4.png);
     background-size: cover; /* Ensure the background image covers the entire div */
     background-position: center; 
     background-repeat: no-repeat;
@@ -892,8 +892,8 @@ body {
     display:inline-block;
     margin:0;
     height:200px;
-    width: 60vw;
-    background: url(assets/5.jpg);
+    width: 30vw;
+    background: url(assets/5.png);
     background-size: 100% 100%; /* Ensure the background image covers the entire div */
     background-position:center; 
     background-repeat: no-repeat;
@@ -904,8 +904,8 @@ body {
     display:inline-block;
     margin:0;
     height:200px;
-    width: 60vw;
-    background: url(assets/6.jpg);
+    width: 30vw;
+    background: url(assets/6.png);
     background-size: cover; /* Ensure the background image covers the entire div */
     background-position: center; 
     background-repeat: no-repeat;
@@ -1427,5 +1427,8 @@ body {
         max-width: 100%;
         color: white;
         size: 20px;
+    }
+     .imgaa,.imgab,.imgac,.imgad,.imgae,.imgaf{
+        width:60vw;
     }
 }
