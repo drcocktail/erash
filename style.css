@@ -1067,6 +1067,8 @@ body {
     column-gap: 1rem;
 
 }
+.footerContainerRes{
+    display:none}
 
 #footerSocials a {
     display: flex;
@@ -1298,7 +1300,7 @@ body {
     #footerContainer {
         width: 100%;
         background: black;
-        
+        display:none;
         flex-direction: column;
         align-items: center;
     }
@@ -1423,7 +1425,7 @@ body {
         width:100%;
     }
 
-    .footerLinksBlock {
+     .footerLinksBlock {
         display: flex;
         flex-direction: column;
         /* align-self: center; */
@@ -1432,7 +1434,107 @@ body {
         color: white;
         size: 20px;
     }
-     .imgaa,.imgab,.imgac,.imgad,.imgae,.imgaf{
+
+    .imgaa,.imgab,.imgac,.imgad,.imgae,.imgaf{
         width:60vw;
+    }
+    .footerContainerRes{
+        display: flex;
+        width:100%;
+        color:white;
+        background:black;
+        flex-direction:column;
+        justify-content: center;
+
+    }
+    .shareimg{
+        background: url(assets/Logo_Share_2.png);
+        width:40vw;
+        position:relative;
+        left:30%;
+        display:inline-block;
+        margin:0;
+        height:90px;
+   
+
+    background-size: 90% 100%; /* Ensure the background image covers the entire div */
+    background-position: center; 
+    background-repeat: no-repeat;
+        
+
+
+    }
+
+    .taglinelineres{
+        margin-top:1rem;
+        margin-bottom:1rem;
+        color:white;
+        font-weight: 30;
+        text-align: center;
+        width:100%;
+        
+    }
+    .contupbutton{
+        width:100%;
+        color:white;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom:1rem;
+    }
+    .contupbutton a {
+        color:var(--green);
+    }
+    /* .updates,.buttonupdate{
+        display: inline-block;
+    }
+    .updates{
+       text-align: center;
+    } */
+
+    
+    .footerContainerRes a{
+       color:#ddd;
+       text-decoration: none;
+
+    }
+    .last{
+        display: flex;
+        width:100%;
+        flex-direction: row;
+    }
+
+    .quick{ 
+        width:50vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+
+    }
+    .office{
+        width:50vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-right:2rem;
+    }
+    .line{
+        margin-top:1rem;
+        width:90vw;
+        height:2px;
+        background-color: #ddd;
+        position: relative;
+        left:5%;
+    }
+    .iconslast{
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+        letter-spacing: 1rem;
+        font-size:2rem;
+    }
+
+    .iconslast a{
+        color:var(--green) !important;
     }
 }
