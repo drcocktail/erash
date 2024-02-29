@@ -1361,4 +1361,13 @@ body {
         color: var(--light-gray);
         font-size: 1.2rem;
     }
+    .faq-container {
+    max-width: 1200px;
+    width: 80vw;
+    margin: 50px auto;
+    background-color: #f7f7f7;
+    /* box-shadow: 0 0 10px var(--green); */
+    overflow: hidden;
+    padding: 20px;
+}
 }
