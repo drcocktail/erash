@@ -956,6 +956,10 @@ body {
     max-width: 25%;
     align-self:flex-start;
 }
+.tagline_responsive{
+    display:none;
+}
+
 
 #newsletter span {
     color: white;
