@@ -706,16 +706,20 @@ body {
 }
 
 .faq-answer {
-    display: none;
-    padding: 10px;
+    max-height:0rem;
+    overflow-y:hidden;
+    padding: 0px 10px 0px 10px;
     word-wrap: break-word; /* Add this line */
     max-width: 100%; /* Set max-width if needed */
-    transition:2s;
+    transition: max-height 0.3s ease-out; 
 }
 
 .faq-answer.show {
-    display: block;
-    
+    /* display: block; */
+    max-height:10rem;
+    padding-top:0;
+    padding-bottom:0;
+    transition: max-height 0.3s ease-in;
 }
 /* .FAQItem.active .FAQquestion::after {
     content: "-";
