@@ -1355,6 +1355,13 @@ body {
         
 
     }
+    
+#heroLeft {
+    background-image: url(assets/hero-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
 
     .projectText {
         width: 100%;
