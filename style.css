@@ -1294,7 +1294,7 @@ body {
     #footerContainer {
         width: 100%;
         background: black;
-        display: none;
+        
         flex-direction: column;
         align-items: center;
     }
