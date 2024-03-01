@@ -58,7 +58,18 @@ Runway
                         <span class="projectTitle">Fluxgen Technologies</span>
                         <span class="projectText">comprehensively analysied  Fluxgens clients database,Eavaluated ESG scores,segmemted company rating criteria
                         </span>
-                        <input class="openProjectBtn" type="button" value="VIEW PROJECT" href ="assets/FluxGen_Project_Report.pdf" download="fluxgen.pdf">
+                        <!--<input class="openProjectBtn" type="button" value="VIEW PROJECT" href ="assets/FluxGen_Project_Report.pdf" download="fluxgen.pdf"> -->
+                        <button class="openProjectBtn">VIEW PROJECT</button>
+
+                    <script>
+                      const downloadButton = document.querySelector('.openProjectBtn');
+                      downloadButton.addEventListener('click', () => {
+                        const downloadLink = document.createElement('a');
+                        downloadLink.href = 'assets/FluxGen_Project_Report.pdf';
+                        downloadLink.download = 'fluxgen.pdf';
+                        downloadLink.click();
+                      });
+                    </script>
                     </div>
                 </div>
                 <div class="projectsItem">
