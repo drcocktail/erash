@@ -47,7 +47,7 @@ body {
 }
 
 #navLogo img {
-    max-height: 80px !important;
+       max-height: 64px !important;
     padding-top: 0.8rem;
 }
 #navLinks a:hover {
