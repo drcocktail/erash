@@ -631,9 +631,9 @@ body {
     }
     .shareimg{
         background: url(assets/Logo_Share_2.png);
-        width:40vw;
-        position:relative;
-        left:30%;
+              width: 54vw;
+    position: relative;
+    left: 24%;
         display:inline-block;
         margin:0;
         height:90px;
@@ -675,7 +675,7 @@ body {
 
     
     .footerContainerRes a{
-       color:#ddd;
+       color:var(--green);
        text-decoration: none;
 
     }
@@ -704,7 +704,7 @@ body {
         margin-top:1rem;
         width:90vw;
         height:2px;
-        background-color: #ddd;
+         background: var(--green);
         position: relative;
         left:5%;
     }
