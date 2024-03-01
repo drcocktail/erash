@@ -156,6 +156,19 @@ body {
     pointer-events:none;
 	transition: all 0.2s ease-in-out;
 }
+
+.imagecontact{
+    
+    background:url(contactmain.png);
+    width:80%;
+    height: 229px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.newcontact{
+    display:flex;
+    flex-direction:row;
+}
 .input-container input{ 
   border:0;
   background:transparent;
