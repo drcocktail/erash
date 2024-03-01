@@ -16,7 +16,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 #navLogo img{
-    max-height: 80px !important;
+       max-height: 64px !important;
 } 
 
 #navbar {
